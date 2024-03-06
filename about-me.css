@@ -1,0 +1,101 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(206, 220, 244);
+    margin: 0;
+    border-style:dashed;
+    border-color:aliceblue;
+    border-top-style: none;
+}
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.about-me h1{
+  color: #ffa3c5;
+  font-size: 70px;
+  text-align: center;
+}
+
+.about-me p {
+  color: #348493;
+  font-size: 30px;
+  font-family: 'Madimi One';
+}
+.navigation ul {
+  font-family: 'Madimi One';
+}
+.navigation button {
+  display: inline-flex
+  margin-left: 20px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.navigation button:hover{
+  text-decoration: underline;
+}
+
+.navigation button:focus{
+  color: pink;
+}
+header{
+  background-color:#ffc2d9;
+  padding: 50px;
+  border-style:ridge ;
+  border-color: #96cbfc;
+}
+
+.navigation ul {
+  list-style-type: none;
+  /*background-color: rgb(64, 64, 192);*/
+  color: white;
+  margin-top: 0px;
+}
+
+
+.navigation {
+  float:right;
+  font-size: 30px;
+}
+.thats-me{
+  width:250px;
+  height:auto;
+  float: top;
+  float:right;
+  margin-bottom:0%;
+}
+.baby-picture{
+  width: 200px;
+  height: auto;
+  float: right;
+  border-color: white;
+  border-style:dashed;
+}
+
+.home {
+  font-family: 'Madimi One';
+}
+.home {
+  color: 13, 13, 131;
+  float:center;
+  background:none;
+  border: none;
+  font-size: 30px;
+ text-align: center;
+}
+.home button:hover{
+  text-decoration:underline;
+}
