@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #C2E1FC;
+    margin: 0;
+    border-style:dashed;
+    border-color:aliceblue;
+    border-top-style: none;
+    }
+  .rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+  .rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+  
+  .navigation button {
+    display: inline-flex
+    margin-left: 20px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+  }
+
+  .navigation button:hover{
+    text-decoration: underline;
+    text-decoration: forced-color-adjust;
+  }
+
+  .navigation button:active{
+    color: pink;
+  }
+
+header{
+    background-color: #ffc2d9;
+    padding: 50px;
+    border-style:solid ;
+    border-color: rgb(118, 165, 235);
+}
+
+.navigation ul {
+    list-style-type: none;
+    /*background-color: rgb(64, 64, 192);*/
+    color: white;
+    margin-top: 0px;
+}
+
+
+.navigation {
+    float:right;
+    font-size: 30px;
+}
+
+
+.profile-picture{
+  width: 400px;
+  height: auto;
+  float: right;
+  margin-right: 20%;
+}
+
+.Me{
+  text-align: center;
+}
+
+.Call-Me-Aly h1{
+    font-size: 110px;
+    color: #FF99BE;
+    margin-bottom:0%;
+    margin-right:0%;
+    font-family: "Rubik Scribble";
+    line-height:.5;
+    margin-left: 10%;
+}
+
+
+.Call-Me-Aly p {
+    font-size:20px;
+    text-align: center;
+    color: pink;
+    text-shadow: 10 0 10;
+    padding-top:10%;
+}
+
+/*.Call-Me-Aly{
+    float: center;
+    clear: center;
+}*/
+
+.content{
+    padding:30;
+   white-space: nowrap;
+  font-family: "Madimi One";
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
