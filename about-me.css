@@ -3,11 +3,11 @@
 }
 
 body{
-    background-color: rgb(206, 220, 244);
-    margin: 0;
+    background-color: #C2E1FC;
+    margin: 1%;
     border-style:dashed;
     border-color:aliceblue;
-    border-top-style: none;
+    padding: 2%;
 }
 .rubik-bubbles-regular {
     font-family: "Rubik Bubbles", system-ui;
@@ -51,13 +51,16 @@ body{
 .navigation button:focus{
   color: pink;
 }
-header{
+/*header{
   background-color:#ffc2d9;
   padding: 50px;
   border-style:ridge ;
   border-color: #96cbfc;
-}
+}*/
 
+.header{
+  padding: 20px;
+}
 .navigation ul {
   list-style-type: none;
   /*background-color: rgb(64, 64, 192);*/
@@ -71,11 +74,14 @@ header{
   font-size: 30px;
 }
 .thats-me{
+  text-align:right;
   width:250px;
   height:auto;
   float: top;
   float:right;
+  margin-left: 10px;
   margin-bottom:0%;
+  
 }
 .baby-picture{
   width: 200px;

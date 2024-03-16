@@ -45,12 +45,12 @@ body{
     color: pink;
   }
 
-header{
+/*header{
     background-color: #ffc2d9;
     padding: 50px;
     border-style:solid ;
     border-color: rgb(118, 165, 235);
-}
+}*/
 
 .navigation ul {
     list-style-type: none;
