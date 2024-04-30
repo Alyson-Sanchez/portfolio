@@ -36,20 +36,16 @@ body{
   font-family: 'Madimi One';
 }
 .navigation button {
-  display: inline-flex
+  display: inline-flex;
   margin-left: 20px;
   font-size: 30px;
   background: none;
   border: none;
-  color: white;
 }
 
 .navigation button:hover{
   text-decoration: underline;
-}
-
-.navigation button:focus{
-  color: pink;
+color: pink;
 }
 /*header{
   background-color:#ffc2d9;
@@ -63,7 +59,6 @@ body{
 }
 .navigation ul {
   list-style-type: none;
-  /*background-color: rgb(64, 64, 192);*/
   color: white;
   margin-top: 0px;
 }

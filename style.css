@@ -27,7 +27,7 @@ body{
   
   
   .navigation button {
-    display: inline-flex
+    display: inline-flex;
     margin-left: 20px;
     font-size: 30px;
     background: none;
@@ -93,22 +93,16 @@ body{
 .Call-Me-Aly p {
     font-size:20px;
     text-align: center;
-    color: pink;
+    color: palevioletred;
     text-shadow: 10 0 10;
     padding-top:10%;
+    font-family: 'Madimi One';
 }
-
-/*.Call-Me-Aly{
-    float: center;
-    clear: center;
-}*/
-
 .content{
     padding:30;
    white-space: nowrap;
   font-family: "Madimi One";
 }
-
 .footer {
     padding: 30px;
     clear: both;

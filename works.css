@@ -8,128 +8,83 @@ body{
     border-color:aliceblue;
     margin: 2%;
 }
+
 .rubik-bubbles-regular {
-    font-family: "Rubik Bubbles", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
   }
 
-  .madimi-one-regular {
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+.rubik-scribble-regular {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
   }
+
+
+.header{
+  padding:50px;
+}
 
 .navigation ul {
   font-family: 'Madimi One';
 }
+
 .navigation button {
   display: inline-flex;
   margin-left: 20px;
   font-size: 30px;
   background: none;
   border: none;
-  color: white;
 }
 
 .navigation button:hover{
   text-decoration: underline;
-}
-
-.navigation button:focus{
   color: pink;
 }
 
-.header{
-  padding:50px;
-}
+
+
 .navigation ul {
   list-style-type: none;
   color: white;
   margin-top: 0px;
 }
 
-
 .navigation {
   float:right;
   font-size: 30px;
 }
 
-/*.content{
-  grid-template-columns: 50px auto 50px [column1] [column2] [column3];
-  grid-template-rows: 100px [row1] [row2] auto 50px auto;
-  font-family: 'Madimi One';
-  color: #348493;
-  display: grid;
-  margin: 2%;
- align-items: center;
-}
 .horiseon{
-  grid-template-columns: [column1];
-  grid-template-rows: [row1];
-  flex-basis:200px;
-  width: 300px;
-  height: auto;
-  float: left;
-  white-space: nowrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-right: 2%;
+width:100%;
+height: 60%;
 }
 
-.two{
-  grid-template-columns: [column2];
-  grid-template-rows: [row1];
-  flex-basis: 100px;
-  width: 300px;
-  height: auto;
-  flex-direction: column;
-  justify-items: center;
-  margin-right: 2%;
+.images{
+  display: inline-block;
 }
 
-.three{
-  grid-template-columns: [column3];
-  flex-basis: 200px;
-  width: 300px;
-  height: auto;
-  flex-direction: column;
-  justify-items: flex-end;
+.Single{
+width:49%;
+display: inline-grid;
 }
 
-.four{
-    flex-basis: 200px;
-    width: 300px;
-    height: auto;
-    flex-direction: row;
-    justify-items: center;
-  }
-
-.five {
-  flex-basis: 200px;
-  width: 300px;
-  height: auto;
-  flex-direction: column;
-  justify-items: flex-end;
+.grid{
+  width: 49%;
+  display: inline-block;
 }
-*/
 
-.content {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-  
-  .horiseon { grid-area: 1 / 1 / 3 / 2;
-    flex-basis:300px;
-    width: 300px;
-    height: auto;}
-  .two { grid-area: 1 / 2 / 2 / 3; }
-  .three { grid-area: 2 / 2 / 3 / 3; }
-  .four { grid-area: 2 / 3 / 3 / 4; }
-  .five { grid-area: 1 / 3 / 2 / 4; }
+.space{
+  width: 48%;
+  height: 48%;
+  display: inline-block;
+}
 
 .home {
   font-family: 'Madimi One';
@@ -140,6 +95,7 @@ body{
   font-size: 30px;
  text-align: center;
 }
+
 .home button:hover{
   text-decoration:underline;
 }

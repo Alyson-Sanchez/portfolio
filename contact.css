@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #C2E1FC;
+    border-style:dashed;
+    border-color:aliceblue;
+    margin: 2%;
+}
+
+.header{
+  padding:50px;
+}
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+  .rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+  
+.navigation ul {
+  font-family: 'Madimi One';
+}
+
+.navigation button {
+  display: inline-flex;
+  margin-left: 20px;
+  font-size: 30px;
+  background: none;
+  border: none;
+
+}
+
+.navigation button:hover{
+  text-decoration: underline;
+  color: pink;
+}
+
+
+.navigation ul {
+  list-style-type: none;
+  color: white;
+  margin-top: 0px;
+}
+
+.navigation {
+  float:right;
+  font-size: 30px;
+}
+
+.home {
+    font-family: 'Madimi One';
+    color: 13, 13, 131;
+    float:center;
+    background:none;
+    border: none;
+    font-size: 30px;
+   text-align: center;
+  }
+  
+  .home button:hover{
+    text-decoration:underline;
+  }
+
+.body h1{
+    text-align: center;
+    font-family: 'Rubik Bubbles';
+    color: #FF99BE;
+}
+
+.body p{
+    padding-left: 10px;
+    color: #348493;
+    font-family: 'Madimi One';
+    text-align: center;
+}
+
+.gitHubLink:visited{
+    text-decoration: none;
+    color: #348493;
+}
